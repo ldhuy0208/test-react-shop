@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; // 10px
+}
+
+body {
+}
+.nav {
+  height: 5rem;
+  background-color: #1abc9c;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 4rem;
+}
+.container {
+}
+
+.list{
+  padding-top: 8rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.btn{
+  padding: 1rem 1.5rem;
+  outline: none;
+  background-color: #16a085;
+  color: white;
+  border: none;
+}

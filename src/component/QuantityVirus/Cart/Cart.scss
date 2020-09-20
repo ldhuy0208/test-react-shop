@@ -1,0 +1,46 @@
+.cart{
+  position: relative;
+
+  &__total{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    background-color: rgb(250, 52, 52);
+    width: 2rem;
+    height: 2rem;
+
+    display: grid;
+    place-items: center;
+
+    border-radius: 99px;
+    font-size: 1.3rem;
+  }
+  
+  &__icon{
+    cursor: pointer;
+    position: relative;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+
+    display: grid;
+    place-items: center;
+
+    i{
+      font-size: 1.9rem;
+    }
+  }
+
+  &__dropdown{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    width: 20rem;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 1.5rem 2rem rgba(#000, .2);
+    border-radius: 4px;
+  }
+}

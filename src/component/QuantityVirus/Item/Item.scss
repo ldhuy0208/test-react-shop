@@ -1,0 +1,24 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20rem;
+  padding: 2rem;
+  margin: 2rem;
+  box-shadow: 0 1.5rem 2rem rgba($color: #000000, $alpha: 0.2);
+  .item__photo {
+    width: 100%;
+    height: 25rem;
+    object-position: center;
+    object-fit: contain;
+  }
+
+  &__title {
+    font-size: 1.2rem;
+  }
+
+  &__price {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
